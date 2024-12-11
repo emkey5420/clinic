@@ -1,9 +1,10 @@
 from flask import Flask, render_template, request, redirect
 from flask_login import login_user, logout_user
-from clinicapp import login
+from clinicapp import login , app
 import dao , models
 from models import UserRole
-app = Flask(__name__)
+
+
 
 
 @app.route("/")
@@ -12,32 +13,45 @@ def home():
 
 @app.route("/login/", methods=['get', 'post'])
 def login_process():
-    if request.method.__eq__('POST'):
-        account = request.form.get('account')
+    if request.method.__eq__("POST"):
+        username = request.form.get('username')
         password = request.form.get('password')
-
-        u = dao.auth_user(account=account, password=password)
-        if u:
-            login_user(u)
+        user = dao.auth_user(username=username, password=password)
+        if user:
+            login_user(user)
             return redirect('/')
 
     return render_template('login.html')
 
-@app.route("/register/", methods=['get', 'post'])
+@app.route('/login-admin', methods=['post'])
+def login_admin_process():
+    username = request.form.get('username')
+    password = request.form.get('password')
+    user = dao.auth_user(username=username, password=password, role=UserRole.ADMIN)
+    if user:
+        login_user(user)
+
+    return redirect('/admin')
+
+
+
+@app.route('/register/', methods=['get', 'post'])
 def register_process():
     err_msg = ''
     if request.method.__eq__('POST'):
         password = request.form.get('password')
-        repassword = request.form.get('repassword')
-
-        if password.__eq__(repassword):
+        confirm = request.form.get('confirm')
+        if password.__eq__(confirm):
             data = request.form.copy()
-            del data['repassword']
-            return redirect('/login')
+            del data['confirm']
+
+            dao.add_user(avatar=request.files.get('avatar'), **data)
+
+            return redirect('/login/')
         else:
             err_msg = 'Mật khẩu không khớp!'
 
-    return render_template('register.html')
+    return render_template('register.html', err_msg=err_msg)
 
 @app.route("/logout/")
 def logout_process():
