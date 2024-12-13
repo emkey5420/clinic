@@ -22,28 +22,6 @@ class User(db.Model, UserMixin):
                     default="https://res.cloudinary.com/dahmfjhys/image/upload/v1733907188/f57rz9849qmsthijvoxp.jpg")
     user_role = Column(Enum(UserRole), default=UserRole.USER)
 
-
-class BenhNhan(db.Model):
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    ho_ten = db.Column(db.String(100), nullable=False)
-    so_dien_thoai = db.Column(db.String(20), nullable=False)
-    email = db.Column(db.String(100), nullable=False)
-
-class BacSi(db.Model):
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    ho_ten = db.Column(db.String(100), nullable=False)
-    chuyen_khoa = db.Column(db.String(100), nullable=False)
-
-class DatLichKham(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    ho_ten = db.Column(db.String(100), nullable=False)
-    ngay_kham = db.Column(db.Date, nullable=False)
-    gio_kham = db.Column(db.Time, nullable=False)
-    bac_si = db.Column(db.String(50), nullable=False)
-    ghi_chu = db.Column(db.String(300))
-
-
-
 if __name__ == '__main__':
     with app.app_context():
         db.create_all()

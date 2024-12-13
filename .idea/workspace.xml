@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3d320268-e052-4002-b9ff-f7bda27a5bc4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinicapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinicapp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinicapp/dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinicapp/dao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinicapp/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinicapp/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinicapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinicapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinicapp/templates/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/clinicapp/templates/layout/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinicapp/templates/layout/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/clinicapp/templates/layout/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinicapp/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/clinicapp/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinicapp/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/clinicapp/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -42,24 +35,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.__init__.executor": "Run",
-    "Python.dao.executor": "Run",
-    "Python.index (1).executor": "Run",
-    "Python.index.executor": "Run",
-    "Python.models.executor": "Run",
-    "Python.run.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "K:/it2203saleappv1/saleapp",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dao.executor&quot;: &quot;Run&quot;,
+    &quot;Python.index (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.index.executor&quot;: &quot;Run&quot;,
+    &quot;Python.models.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;K:/clinic&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="K:\clinic\clinicapp\templates" />
       <recent name="D:\QuanLyPhongKham\clinicapp" />
       <recent name="D:\QuanLyPhongKham\templates\layout" />
     </key>

@@ -17,11 +17,7 @@
     <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredIdentifiers">
         <list>
-<<<<<<< HEAD
-          <option value="saleapp.app.models.app" />
-=======
           <option value="config.Config" />
->>>>>>> 1d261db (login logout signup dat lich)
         </list>
       </option>
     </inspection_tool>

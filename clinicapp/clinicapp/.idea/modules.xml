@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/QuanLyPhongKham.iml" filepath="$PROJECT_DIR$/.idea/QuanLyPhongKham.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/.idea/clinicapp.iml" filepath="$PROJECT_DIR$/.idea/clinicapp.iml" />
->>>>>>> 1d261db (login logout signup dat lich)
     </modules>
   </component>
 </project>
