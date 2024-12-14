@@ -5,8 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d320268-e052-4002-b9ff-f7bda27a5bc4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/clinicapp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinicapp/.idea/clinicapp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinicapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinicapp/dao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinicapp/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinicapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinicapp/route.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinicapp/templates/datlichkham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinicapp/templates/gioithieu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinicapp/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinicapp/templates/layout/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinicapp/templates/layout/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinicapp/templates/layout/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinicapp/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinicapp/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinicapp/templates/static/CSS/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinicapp/templates/static/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clinicapp/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clinicapp/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clinicapp/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clinicapp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/.idea/clinicapp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/dao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/route.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/templates/layout/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/templates/layout/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/templates/layout/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/templates/layout/sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/templates/static/CSS/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/templates/static/image/clinic_logo_web_friendly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/clinicapp/templates/static/image/logobenhvien.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinicapp/requirments.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirments.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
